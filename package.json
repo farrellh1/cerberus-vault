@@ -1,5 +1,10 @@
 {
   "name": "cerberus-vault",
+  "scripts": {
+    "deploy": "npx hardhat ignition deploy ./ignition/modules/CerberusVault.ts",
+    "node": "npx hardhat node",
+    "test": "npx hardhat test"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.3"
