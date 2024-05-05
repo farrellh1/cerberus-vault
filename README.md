@@ -1,6 +1,6 @@
-# Sample Hardhat Project
+# Cerberus Vault
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Cerberus Vault is a secure and customizable multi-signature wallet contract built on the Ethereum blockchain. It empowers users to manage their crypto assets with enhanced security by requiring multiple approvals for transactions.
 
 Try running some of the following tasks:
 
@@ -9,5 +9,5 @@ npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+npx hardhat ignition deploy ./ignition/modules/CerberusVault.ts
 ```
